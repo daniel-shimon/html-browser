@@ -1,0 +1,61 @@
+div.aTopLink, div.sdmenu {
+	width: 140px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+div.aTopLink div, div.sdmenu div {
+	/*	background: url(title.gif) repeat-x; */
+	background-color:#FFCC00;
+	overflow: hidden;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFFF99;
+}
+div.sdmenu div:first-child {
+/*	background: url(title.gif) repeat-x; */
+	background-color:#FFCC00;
+}
+div.aTopLink div, div.sdmenu div.collapsed {
+	height: 20px;
+}
+div.aTopLink div span, div.sdmenu div span {
+	display: block;
+	padding: 4px 18px;
+	font-weight: bold;
+	color: #333333;
+	cursor: default;
+}
+div.sdmenu div span {
+	border-bottom: 0px solid #ddd;
+	background-image: url(expanded.gif);
+	background-repeat: no-repeat;
+	background-position: 5px center;
+}
+div.sdmenu div.collapsed span {
+	background-image: url(collapsed.gif);
+}
+
+div.sdmenu div a {
+	padding: 3px 10px;
+	display: block;
+	color: #000000;
+	text-decoration: none;
+/*	background-image:url(../back2.jpg); */
+	background-color: #FFFF99;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFCC00;
+}
+div.aTopLink div span a {
+	text-decoration: none;
+        color: #000000;
+}
+
+div.sdmenu div a.current {
+	background : #ccc;
+}
+div.sdmenu div a:hover {
+	background-color: #FFFF99;
+	background-image:url(../layout_images/back2.jpg);
+}
