@@ -1,5 +1,0 @@
-﻿  Parser.cpp
-c:\users\daiel\onedrive\browser project\browser project\parsing system\parser.cpp(424): warning C4715: 'Parser::parseSize': not all control paths return a value
-c:\users\daiel\onedrive\browser project\browser project\parsing system\parser.cpp(470): warning C4715: 'Parser::nextChar': not all control paths return a value
-  Browser Project.vcxproj -> C:\Users\daiel\OneDrive\Browser Project\Debug\Browser Project.exe
-  Browser Project.vcxproj -> C:\Users\daiel\OneDrive\Browser Project\Debug\Browser Project.pdb (Partial PDB)

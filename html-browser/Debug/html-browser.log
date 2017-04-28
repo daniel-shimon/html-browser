@@ -1,0 +1,64 @@
+﻿Build started 4/16/2017 14:37:48.
+     1>Project "D:\html-browser\html-browser\html-browser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BaseTag.cpp BodyTag.cpp BoldTag.cpp BreakTag.cpp GenericTag.cpp H1Tag.cpp H2Tag.cpp H3Tag.cpp H4Tag.cpp H5Tag.cpp H6Tag.cpp ItalicTag.cpp ParagraphTag.cpp Parser.cpp RawText.cpp Renderer.cpp Root.cpp Source.cpp
+         Source.cpp
+         Root.cpp
+         Renderer.cpp
+     1>d:\html-browser\html-browser\renderer.cpp(36): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+         RawText.cpp
+     1>d:\html-browser\html-browser\rawtext.cpp(17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>d:\html-browser\html-browser\rawtext.cpp(24): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\html-browser\html-browser\rawtext.cpp(25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\html-browser\html-browser\rawtext.cpp(23): warning C4996: 'sf::Text::setColor': was declared deprecated
+         c:\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+         Parser.cpp
+         ParagraphTag.cpp
+         ItalicTag.cpp
+         H6Tag.cpp
+         H5Tag.cpp
+         H4Tag.cpp
+         H3Tag.cpp
+         H2Tag.cpp
+         H1Tag.cpp
+         GenericTag.cpp
+         BreakTag.cpp
+     1>d:\html-browser\html-browser\breaktag.cpp(21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+         BoldTag.cpp
+         BodyTag.cpp
+     1>d:\html-browser\html-browser\bodytag.cpp(22): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+         BaseTag.cpp
+     1>d:\html-browser\html-browser\basetag.cpp(221): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+     1>d:\html-browser\html-browser\basetag.cpp(222): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+     1>d:\html-browser\html-browser\basetag.cpp(49): warning C4715: 'BaseTag::stringToType': not all control paths return a value
+     1>d:\html-browser\html-browser\parser.cpp(397): warning C4715: 'Parser::parseSize': not all control paths return a value
+     1>d:\html-browser\html-browser\parser.cpp(438): warning C4715: 'Parser::nextChar': not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\html-browser\Debug\html-browser.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.4.2\lib" "sfml-main-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-graphics-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\html-browser\Debug\html-browser.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\html-browser\Debug\html-browser.lib" /MACHINE:X86 Debug\BaseTag.obj
+         Debug\BodyTag.obj
+         Debug\BoldTag.obj
+         Debug\BreakTag.obj
+         Debug\GenericTag.obj
+         Debug\H1Tag.obj
+         Debug\H2Tag.obj
+         Debug\H3Tag.obj
+         Debug\H4Tag.obj
+         Debug\H5Tag.obj
+         Debug\H6Tag.obj
+         Debug\ItalicTag.obj
+         Debug\ParagraphTag.obj
+         Debug\Parser.obj
+         Debug\RawText.obj
+         Debug\Renderer.obj
+         Debug\Root.obj
+         Debug\Source.obj
+         LINK : D:\html-browser\Debug\html-browser.exe not found or not built by the last incremental link; performing full link
+            Creating library D:\html-browser\Debug\html-browser.lib and object D:\html-browser\Debug\html-browser.exp
+     1>sfml-main-d.lib(MainWin32.cpp.obj) : warning LNK4099: PDB 'vc140.pdb' was not found with 'sfml-main-d.lib(MainWin32.cpp.obj)' or at 'D:\html-browser\Debug\vc140.pdb'; linking object as if no debug info
+         html-browser.vcxproj -> D:\html-browser\Debug\html-browser.exe
+     1>Done Building Project "D:\html-browser\html-browser\html-browser.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.99
